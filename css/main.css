@@ -17,7 +17,6 @@ body {
 }
 
 /* UTILITIES */
-
 .btn {
     padding: 10px;
     color: white;
@@ -34,14 +33,21 @@ body {
     margin-right: 10px;
 }
 
+.mt-10 {
+    margin-top: 10px;
+}
+
+
 /* HEADER */
 header {
     text-align: end;
+    background-color: #222;
 }
 
 header button {
     border-radius: 5px;
 }
+
 
 /* MAIN */
 main {
@@ -85,7 +91,7 @@ main {
 
 
 footer{
-    background-color: violet;
+    background-color: #222;
     height: 70px;
 }
 
