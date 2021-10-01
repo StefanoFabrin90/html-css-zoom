@@ -86,14 +86,29 @@ main {
 }
 
 
-
-
-
-
+/* FOOTER */
 footer{
     background-color: #222;
-    height: 70px;
+    display: flex;
+    justify-content: space-between;
 }
+
+.left {
+    list-style: none;
+    display: flex;
+    padding: 5px 0;
+}
+
+.footer-icon {
+    text-align: center;
+    margin: 0 15px;
+}
+
+.footer-icon .icon {
+    display: block;
+    font-size: 21px;
+}
+
 
 
 
