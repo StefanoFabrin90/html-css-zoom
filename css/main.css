@@ -6,3 +6,75 @@
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
 }
+
+body {
+    height: 100vh;
+    background: black;
+    color: white;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* UTILITIES */
+
+.btn {
+    padding: 10px;
+    color: white;
+    background-color: rgba(255,255,255, .2);
+    border: 0;
+    cursor: pointer;
+}
+
+.p-10 {
+    padding: 10px;
+}
+
+.mr-10 {
+    margin-right: 10px;
+}
+
+/* HEADER */
+header {
+    text-align: end;
+}
+
+header button {
+    border-radius: 5px;
+}
+
+/* MAIN */
+main {
+    flex-grow: 1;
+    overflow: auto;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+}
+
+.gallery li {
+    width: 300px;
+    margin: 10px;
+}
+
+.participanti {
+    height: 150px;
+    background: white;
+}
+
+
+
+
+
+
+footer{
+    background-color: violet;
+    height: 70px;
+}
+
+
+
