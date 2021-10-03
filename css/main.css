@@ -93,7 +93,7 @@ footer{
     justify-content: space-between;
 }
 
-.left {
+.left, .center {
     list-style: none;
     display: flex;
     padding: 5px 0;
@@ -102,11 +102,25 @@ footer{
 .footer-icon {
     text-align: center;
     margin: 0 15px;
+    cursor: pointer;
 }
 
 .footer-icon .icon {
     display: block;
     font-size: 21px;
+}
+
+.footer-icon.arrow-menu {
+    display: flex;
+    align-items: center;
+}
+
+.footer-icon.active .icon {
+    color:#4cc800;
+}
+
+.btn-end {
+    color: #fe5453;
 }
 
 
